@@ -29,7 +29,7 @@ List of supported operational systems supported by this installation script).
 Just run the command below in your terminal
 
 ```bash
-bash <(curl -s https://pterodactyl-installer.se)
+bash <(curl -s https://raw.githubusercontent.com/eldremor/tcadmin-installer/main/tcadmin-installer.sh)
 ```
 
 ## Firewall setup
