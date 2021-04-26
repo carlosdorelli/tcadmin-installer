@@ -2,19 +2,20 @@
 
 [![Discord](https://img.shields.io/discord/682342331206074373?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://pterodactyl-installer.se/discord)
 
-Unofficial scripts for installing TCAdmin V2 Panel & MYSql. Works with Ubuntu 18.04.
+Unofficial scripts for installing TCAdmin V2 Panel & Database (MySql + Mariadb).
 
 ## Features
 
-- Automatic installation of the TCAdmin V2 Panel (dependencies and database).
+- Automatic installation of the TCAdmin V2 Panel (dependencies, database andnginx).
+- Optional installation of SSL and change port 8880 (default) to 80 so you have now: panel.host.com and not panel.host.com:8880
 
 ## Help and support
 
-For help and support regarding the script itself and **not the official Pterodactyl project**, you can join the [Discord Chat](https://pterodactyl-installer.se/discord).
+For help and support about the script you can join my [Discord Server](https://eldremor.com/discord).
 
 ## Supported installations
 
-List of supported installation setups for panel and Wings (installations supported by this installation script).
+List of supported operational systems supported by this installation script).
 
 ### Supported panel operating systems and webservers
 
@@ -23,26 +24,22 @@ List of supported installation setups for panel and Wings (installations support
 | Ubuntu           | 18.04   | :white_check_mark: |             |
 |                  | 20.04   | :white_check_mark: |             |
 
-## Using the installation scripts
+## Let's install it!
 
-To use the installation scripts, simply run this command as root. The script will ask you whether you would like to install just the panel, just the daemon or both.
+Just run the command below in your terminal
 
 ```bash
 bash <(curl -s https://pterodactyl-installer.se)
 ```
 
-_Note: On some systems, it's required to be already logged in as root before executing the one-line command (where `sudo` is in front of the command does not work)._
-
-Here is a [YouTube video](https://www.youtube.com/watch?v=E8UJhyUFoHM) that illustrates the installation process.
-
 ## Firewall setup
 
-The installation scripts can install and configure a firewall for you. The script will ask whether you want this or not. It is highly recommended to opt-in for the automatic firewall setup.
+The installation scripts already install and configure a firewall for you. Just sit and relax!
 
 ## Contributors ✨
 
-Copyright (C) 2018 - 2021, Vilhelm Prytz, <vilhelm@prytznet.se>
+Copyright (C) 2021, Carlos "Eldremor" Dorelli, <carlos@timberhost.com.br>
 
-Created and maintained by [Vilhelm Prytz](https://github.com/vilhelmprytz).
+Created and maintained by [Carlos "Eldremor" Dorelli](https://github.com/eldremor/tcadmin-installer).
 
-Special thanks to the Discord moderators [sam1370](https://github.com/sam1370) and [Linux123123](https://github.com/Linux123123) for helping on the Discord server!
+Special thanks to Luis Alvarenga for keep TCAdmin always the best during all these years!
