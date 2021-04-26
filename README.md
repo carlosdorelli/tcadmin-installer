@@ -1,6 +1,6 @@
 # :rocket: tcadmin-installer
 
-[![Discord](https://img.shields.io/discord/682342331206074373?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://pterodactyl-installer.se/discord)
+[![Discord](https://img.shields.io/discord/832274980665557032?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://pterodactyl-installer.se/discord)
 
 Unofficial scripts for installing TCAdmin V2 Panel & Database (MySql + Mariadb).
 
@@ -21,8 +21,8 @@ List of supported operational systems supported by this installation script).
 
 | Operating System | Version | nginx support      | PHP Version |
 | ---------------- | ------- | ------------------ | ----------- |
-| Ubuntu           | 18.04   | :white_check_mark: |             |
-|                  | 20.04   | :white_check_mark: |             |
+| Ubuntu           | 18.04   | :white_check_mark: | 8.0         |
+|                  | 20.04   | :white_check_mark: | 8.0         |
 
 ## Let's install it!
 
@@ -42,4 +42,4 @@ Copyright (C) 2021, Carlos "Eldremor" Dorelli, <carlos@timberhost.com.br>
 
 Created and maintained by [Carlos "Eldremor" Dorelli](https://github.com/eldremor/tcadmin-installer).
 
-Special thanks to Luis Alvarenga for keep TCAdmin always the best during all these years!
+Special thanks to Luis Alvarenga for keeping TCAdmin always the best during all these years!
