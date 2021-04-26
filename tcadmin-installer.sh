@@ -2,7 +2,7 @@
 
 set -e
 
-VERSAO="v1.0.0"
+VERSION="v1.0.0"
 
 # Sai com erro caso o usuário não seja root
 if [[ $EUID -ne 0 ]]; then
@@ -32,35 +32,35 @@ error() {
 
 done=false
 
-output "Instalador Automático do TCAdmin @ $VERSAO"
+output "TCAdmin Installer @ $VERSION"
 output
-output "Copyright (C) 2021, Carlos Dorelli, <carlos@timberhost.com.br>"
+output "Copyright (C) 2021, Carlos 'Eldremor' Dorelli, <carlos@timberhost.com.br>"
 output "https://github.com/eldremor/tcadmin-installer"
 output
-output "Esse script não é oficial e não tem relações com o TCAdmin.com!"
+output "This is custom script and it's not related to TCAdmin.com"
 
 output
 
-painel() {
-  bash <(curl -s https://raw.githubusercontent.com/vilhelmprytz/eldremor/tcadmin-installer/$VERSAO/install-panel.sh)
+panel() {
+  bash <(curl -s https://raw.githubusercontent.com/eldremor/tcadmin-installer/$VERSION/panel.sh)
 }
 
 mysql() {
-  bash <(curl -s https://raw.githubusercontent.com/vilhelmprytz/eldremor/tcadmin-installer/$VERSAO/install-wings.sh)
+  bash <(curl -s https://raw.githubusercontent.com/eldremor/tcadmin-installer/$VERSION/mysql.sh)
 }
 
 while [ "$done" == false ]; do
   options=(
-    "Instalar o TCAdmin (Para Ubuntu 18.04)"
-    "Instalar MYSql + Mariadb (Recomendado - não use sqlite)"
+    "Install TCAdmin"
+    "Install MYSQL + Mariadb"
   )
 
   actions=(
-    "painel"
+    "panel"
     "mysql"
   )
 
-  output "Qual opção você escolhe?"
+  output "Which option do you choose?"
 
   for i in "${!options[@]}"; do
     output "[$i] ${options[$i]}"
@@ -69,9 +69,9 @@ while [ "$done" == false ]; do
   echo -n "* Input 0-$((${#actions[@]}-1)): "
   read -r action
 
-  [ -z "$action" ] && error "Escolha algo!" && continue
+  [ -z "$action" ] && error "Choose a option" && continue
 
   valid_input=("$(for ((i=0;i<=${#actions[@]}-1;i+=1)); do echo "${i}"; done)")
-  [[ ! " ${valid_input[*]} " =~ ${action} ]] && error "Opção inválida!"
+  [[ ! " ${valid_input[*]} " =~ ${action} ]] && error "Invalid option!"
   [[ " ${valid_input[*]} " =~ ${action} ]] && done=true && eval "${actions[$action]}"
 done

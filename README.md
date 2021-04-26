@@ -1,6 +1,6 @@
 # :rocket: tcadmin-installer
 
-[![Discord](https://img.shields.io/discord/832274980665557032?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://pterodactyl-installer.se/discord)
+[![Discord](https://img.shields.io/discord/832274980665557032?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/D2Y3zDRp9m)
 
 Unofficial scripts for installing TCAdmin V2 Panel & Database (MySql + Mariadb).
 
