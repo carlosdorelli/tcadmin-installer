@@ -6,7 +6,7 @@ Unofficial scripts for installing TCAdmin V2 Panel & Database (MySql + Mariadb).
 
 ## Features
 
-- Automatic installation of the TCAdmin V2 Panel (dependencies, database andnginx).
+- Automatic installation of the TCAdmin V2 Panel (dependencies, database and nginx).
 - Optional installation of SSL and change port 8880 (default) to 80 so you have now: panel.host.com and not panel.host.com:8880
 
 ## Help and support
