@@ -1,3 +1,7 @@
+#!/bin/bash
+
+set -e
+
 # Installing dependencies
 echo -e ""
 echo -e ""
