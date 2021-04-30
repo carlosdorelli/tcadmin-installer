@@ -6,7 +6,7 @@ VERSION="v1.0.0"
 
 # Sai com erro caso o usuário não seja root
 if [[ $EUID -ne 0 ]]; then
-  echo "* Você precisa ter privilégios do root (sudo) para executar o script!" 1>&2
+  echo "* You need root permissions for this script. Do 'sudo su -'." 1>&2
   exit 1
 fi
 
@@ -26,12 +26,13 @@ error() {
   COLOR_NC='\033[0m'
 
   echo ""
-  echo -e "* ${COLOR_RED}ERRO${COLOR_NC}: $1"
+  echo -e "* ${COLOR_RED}ERROR${COLOR_NC}: $1"
   echo ""
 }
 
 done=false
 
+clear
 output "TCAdmin Installer @ $VERSION"
 output
 output "Copyright (C) 2021, Carlos 'Eldremor' Dorelli, <carlos@timberhost.com.br>"
@@ -42,11 +43,11 @@ output "This is custom script and it's not related to TCAdmin.com"
 output
 
 panel() {
-  bash <(curl -s https://raw.githubusercontent.com/eldremor/tcadmin-installer/$VERSION/panel.sh)
+  bash <(curl -s https://raw.githubusercontent.com/eldremor/tcadmin-installer/panel.sh)
 }
 
 mysql() {
-  bash <(curl -s https://raw.githubusercontent.com/eldremor/tcadmin-installer/$VERSION/mysql.sh)
+  bash <(curl -s https://raw.githubusercontent.com/eldremor/tcadmin-installer/mysql.sh)
 }
 
 while [ "$done" == false ]; do

@@ -13,7 +13,7 @@ Everything you will see in the script it's already in [TCAdmin Help](https://hel
 
 ## Help and support
 
-Remember that this is a unofficial script so TCAdmin.com will not give support to the script problems.
+Remember that this is a unofficial script so TCAdmin.com won't give support to the script problems.
 
 For help and support about the script you can join my [Discord Server](https://eldremor.com/discord).
 
