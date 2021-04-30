@@ -32,7 +32,7 @@ error() {
 
 done=false
 
-clear
+output
 output "TCAdmin Installer @ $VERSION"
 output
 output "Copyright (C) 2021, Carlos 'Eldremor' Dorelli, <carlos@timberhost.com.br>"
