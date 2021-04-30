@@ -4,12 +4,16 @@
 
 Unofficial scripts for installing TCAdmin V2 Panel & Database (MySql + Mariadb).
 
+Everything you will see in the script it's already in [TCAdmin Help](https://help.tcadmin.com/Installation) but people don't read so I hope this these people...
+
 ## Features
 
 - Automatic installation of the TCAdmin V2 Panel (dependencies, database and nginx).
 - Optional installation of SSL and change port 8880 (default) to 80 so you have now: panel.host.com and not panel.host.com:8880
 
 ## Help and support
+
+Remember that this is a unofficial script so TCAdmin.com will not give support to the script problems.
 
 For help and support about the script you can join my [Discord Server](https://eldremor.com/discord).
 
@@ -28,6 +32,7 @@ List of supported operational systems supported by this installation script).
 
 Just run the command below in your terminal
 
+Ubuntu:
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/eldremor/tcadmin-installer/main/tcadmin-installer.sh)
 ```
