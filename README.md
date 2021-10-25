@@ -1,14 +1,10 @@
 # :rocket: tcadmin-installer
 
-[![Discord](https://img.shields.io/discord/832274980665557032?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/D2Y3zDRp9m)
-
-Unofficial scripts for installing TCAdmin V2 Panel & Database (MySql + Mariadb).
-
-Everything you will see in the script it's already in [TCAdmin Help](https://help.tcadmin.com/Installation) but people don't read so I hope this these people...
+[![Discord](https://img.shields.io/discord/896382170720006165?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/Q3SaFjwbnw)
 
 ## Features
 
-- Automatic installation of the TCAdmin V2 Panel (dependencies, database and nginx).
+- Automatic installation of TCAdmin V2 Panel (dependencies, database and nginx).
 - Optional installation of SSL and change port 8880 (default) to 80 so you have now: panel.host.com and not panel.host.com:8880
 
 ## Help and support
@@ -39,12 +35,12 @@ bash <(curl -s https://raw.githubusercontent.com/eldremor/tcadmin-installer/main
 
 ## Firewall setup
 
-The installation scripts already install and configure a firewall for you. Just sit and relax!
+The scripts already install and configure it so just sit and relax.
 
 ## Contributors ✨
 
 Copyright (C) 2021, Carlos "Eldremor" Dorelli, <carlos@timberhost.com.br>
 
-Created and maintained by [Carlos "Eldremor" Dorelli](https://github.com/eldremor/tcadmin-installer).
+Created and maintained by [Carlos "Eldremor" Dorelli](https://github.com/carlosdorelli/tcadmin-installer).
 
-Special thanks to Luis Alvarenga for keeping TCAdmin always the best during all these years!
+Special thanks to Luis Alvarenga for keeping TCAdmin the best during all these years!
