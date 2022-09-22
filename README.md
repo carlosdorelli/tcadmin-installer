@@ -44,7 +44,7 @@ chmod +x installer.sh
 And then
 
 ```
-./tcadmin-installer.sh
+./installer.sh
 ```
 
 ## Contribute
