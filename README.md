@@ -1,46 +1,40 @@
-# :rocket: tcadmin-installer
+![tcadmin installer](https://i.imgur.com/4T9QzFX.png)
 
-[![Discord](https://img.shields.io/discord/896382170720006165?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/Q3SaFjwbnw)
+A script that install and configure TCAdmin as your necessity.
+
+That's a community project created by [Dorelli's Community](https://discord.gg/Ew2MdZEMzz).
 
 ## Features
 
-- Automatic installation of TCAdmin V2 Panel (dependencies, database and nginx).
-- Optional installation of SSL and change port 8880 (default) to 80 so you have now: panel.host.com and not panel.host.com:8880
+- Installation of TCAdmin 2.0
+- MariaDB installation (optional but recommended)
+- FQDN (panel.yourdomain.com) with nginx (optional)
+- SSL Certificate installation (optional - uses the option above)
+- Installation of apache2 for Fast Download (optional)
 
-## Help and support
+## Supported Instalations
 
-Remember that this is a unofficial script so TCAdmin.com won't give support to the script problems.
-
-For help and support about the script you can join my [Discord Server](https://eldremor.com/discord).
-
-## Supported installations
-
-List of supported operational systems supported by this installation script).
-
-### Supported panel operating systems and webservers
+List of supported operational systems.
 
 | Operating System | Version | nginx support      | PHP Version |
 | ---------------- | ------- | ------------------ | ----------- |
 | Ubuntu           | 18.04   | :white_check_mark: | 8.0         |
 |                  | 20.04   | :white_check_mark: | 8.0         |
 
-## Let's install it!
 
-Just run the command below in your terminal
+## Installation
 
-Ubuntu:
-```bash
-bash <(curl -s https://raw.githubusercontent.com/eldremor/tcadmin-installer/main/tcadmin-installer.sh)
+Download the latest version [versão](https://github.com/carlosdorelli/tcadmin-installer//releases) and execute the script.
+
+```
+chmod +x tcadmin-installer.sh
 ```
 
-## Firewall setup
+And then:
 
-The scripts already install and configure it so just sit and relax.
+```
+./tcadmin-installer.sh
+```
 
-## Contributors ✨
-
-Copyright (C) 2021, Carlos "Eldremor" Dorelli, <carlos@timberhost.com.br>
-
-Created and maintained by [Carlos "Eldremor" Dorelli](https://github.com/carlosdorelli/tcadmin-installer).
-
-Special thanks to Luis Alvarenga for keeping TCAdmin the best during all these years!
+## Contribute
+To any modification open a discussion.
