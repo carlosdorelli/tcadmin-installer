@@ -12,9 +12,9 @@ That's a community project created by [Dorelli's Community](https://discord.gg/E
 ### Optional features
 
 - MariaDB installation (recommended)
-- FQDN (panel.yourdomain.com) with nginx
-- SSL Certificate installation (uses nginx)
-- Installation of apache2 for Fast Download
+- FQDN (panel.yourdomain.com) w/ nginx
+- SSL (https) Certificate installation w/ nginx
+- Installation of apache2 for Fast Downloads
 - phpMyAdmin installation in a FQDN with SSL (phpMyAdmin.yourdomain.com)
 
 ## Supported Instalations
