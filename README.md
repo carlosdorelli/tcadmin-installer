@@ -7,10 +7,15 @@ That's a community project created by [Dorelli's Community](https://discord.gg/E
 ## Features
 
 - Installation of TCAdmin 2.0
-- MariaDB installation (optional but recommended)
-- FQDN (panel.yourdomain.com) with nginx (optional)
-- SSL Certificate installation (optional - uses the option above)
-- Installation of apache2 for Fast Download (optional)
+- Language bug corretor (accent)
+
+### Optional features
+
+- MariaDB installation (recommended)
+- FQDN (panel.yourdomain.com) with nginx
+- SSL Certificate installation (uses nginx)
+- Installation of apache2 for Fast Download
+- phpMyAdmin installation in a FQDN with SSL (phpMyAdmin.yourdomain.com)
 
 ## Supported Instalations
 
