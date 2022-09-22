@@ -29,7 +29,7 @@ List of supported operational systems.
 
 ## Installation
 
-Download the latest version [versão](https://github.com/carlosdorelli/tcadmin-installer//releases) and execute the script.
+Download the latest version [clicking here](https://downloads.tcadmin.com.br/installer.sh) and execute the script.
 
 ```
 chmod +x tcadmin-installer.sh
