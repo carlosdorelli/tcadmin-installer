@@ -38,7 +38,7 @@ wget https://downloads.tcadmin.com.br/installer.sh
 Give permissions
 
 ```
-chmod +x tcadmin-installer.sh
+chmod +x installer.sh
 ```
 
 And then
