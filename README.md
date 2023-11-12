@@ -2,7 +2,7 @@
 
 A script that install and configure TCAdmin as your necessity.
 
-That's a community project created by [Dorelli's Community](https://discord.gg/Ew2MdZEMzz).
+That's a community project created by [Dorelli's Server](https://discord.gg/jXhRKPxAuM).
 
 ## Features
 
@@ -25,26 +25,27 @@ List of supported operational systems.
 | ---------------- | ------- | ------------------ | ----------- |
 | Ubuntu           | 18.04   | :white_check_mark: | 8.0         |
 |                  | 20.04   | :white_check_mark: | 8.0         |
+|                  | 22.04   | :white_check_mark: | 8.0         |
 
 
 ## Installation
 
-Download the latest [version](https://downloads.tcadmin.com.br/installer.sh)
+Download the latest [version](https://downloads.carlosdorelli.com/tca_installer.sh)
 
 ```
-wget https://downloads.tcadmin.com.br/installer.sh
+wget https://downloads.carlosdorelli.com/tca_installer.sh
 ```
 
 Give permissions
 
 ```
-chmod +x installer.sh
+chmod +x tca_installer.sh
 ```
 
 And then
 
 ```
-./installer.sh
+./tca_installer.sh
 ```
 
 ## Contribute
